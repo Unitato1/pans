@@ -4,5 +4,6 @@ class PansController < ApplicationController
   end
 
   def show
+    @pan = Pan.find(params[:id])
   end
 end

@@ -1,6 +1,39 @@
-* {
+body,
+html {
   font-size: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: black;
+  color: whitesmoke;
+  height: 100%;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+  font-size: 32px;
+  color: bisque;
+}
+.container {
+  height: 200px;
+  width: 200px;
+  border-radius: 15%;
+  border: 3px white dashed;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+.main {
+  gap: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
