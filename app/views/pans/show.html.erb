@@ -1,2 +1,10 @@
 <%= render @pan %>
+<div class="container">
+FEATURES --->
+<% @features.each do |f|%>
+    <%= f.name %>
+    <%= f.desctription %>
+<% end %>
+
+</div>
 <%= link_to "Homepage", pans_url %>

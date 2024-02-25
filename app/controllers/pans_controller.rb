@@ -5,5 +5,6 @@ class PansController < ApplicationController
 
   def show
     @pan = Pan.find(params[:id])
+    @features = @pan.features
   end
 end
